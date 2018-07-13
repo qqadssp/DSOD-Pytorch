@@ -1,4 +1,7 @@
 # DSOD-Pytorch
+This is an implementation of DSOD in Pytorch. It is based on the code [dsod.pytorch](https://github.com/chenyuntc/dsod.pytorch) and [torchcv](https://github.com/kuangliu/torchcv)  
+
+Origin implementation is [here](https://github.com/szq0214/DSOD) and [here](openaccess.thecvf.com/content_ICCV_2017/papers/Shen_DSOD_Learning_Deeply_ICCV_2017_paper.pdf) is the paper
 
 ## Requirment
 python 2.7  
@@ -29,7 +32,7 @@ python train.py main
 ```
 python eval.py
 ```
-# Demo
+## Demo
 Training dataset is used here. If you have trained some epochs and get checkpoint, modify opt.load_path and run  
 ```
 python demo.py
