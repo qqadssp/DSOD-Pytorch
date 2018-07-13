@@ -3,12 +3,14 @@ This is an implementation of DSOD in Pytorch. It is based on the code [dsod.pyto
 
 Origin implementation is [here](https://github.com/szq0214/DSOD) and [here](http://openaccess.thecvf.com/content_ICCV_2017/papers/Shen_DSOD_Learning_Deeply_ICCV_2017_paper.pdf) is the paper
 
+I can train it on PASCAL VOC dataset and the loss also converges, but I am not sure it can achive the same scores as in the paper. Some more modifications need to be done.
+
 ## Requirment
 python 2.7  
 pytorch 0.4  
 visdom  
 
-## Train
+## Train on VOC
 1. Download this repo  
 ```
 git clone git@github.com:qqadssp/DSOD-Pytorch  
